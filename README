@@ -1,0 +1,7 @@
+I am depositing an ongoing photo display project that uses simple HTML, CSS, Javascript, JQuery, and Bootstrap.
+
+With this interface, the user can simply click on any of the thumbnails in the 4x4 gallery of images.
+Upon clicking, the selected image is enlarged to the size of the grid container, and upon clicking again,
+the 4x4 gallery will display again.
+
+Currently I am aiming to make the project mobile friendly and more compatible in general with Mozilla and IE.s
