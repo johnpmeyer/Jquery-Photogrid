@@ -1,0 +1,301 @@
+body {
+	background-color:black;
+	border: 4px solid white;
+	color:white;
+	margin:8px;
+}
+
+h1, h3, h4, h5, p, a, li{
+	font-family:'Quicksand', sans-serif;
+}
+
+#indexcopy {
+	display:none;
+	height:97.5vh;
+	margin:1vh;
+	height:98vh;
+	width: 98.5vw;
+}
+
+.homelink {
+	font-family:'Quicksand', sans-serif;
+	font-size:1.3em;
+	margin-top:20px;
+}
+
+.header {
+	height:10%;
+}
+
+.header a {
+	color:white;
+	text-decoration:none;
+	font-size:2em;
+}
+
+.header a:hover {
+	text-decoration:underline;
+}
+
+.navbar {
+	margin-top:20px;
+	display:inline;
+	list-style-type:none;
+}
+
+.navbar li {
+	display:inline-block;
+	margin-right:5%;
+}
+
+.navlink {
+	margin-top:30px;
+	text-align:left;
+}
+
+#indexDropdown.navbarDropdown .navbarDropdownLink {
+	background-color:black;
+}
+
+.navbarDropdown {
+	list-style-type:none;
+	padding-left:10px;
+}
+
+.navbarDropdown .navbarDropdownLink {
+	font-size:1.5em;
+	display:none;
+	position:absolute;
+}
+
+#lastnavbar {
+	margin-right:2%;
+}
+
+.main {
+height:85%;
+background:url(../img/1-copy.jpg);
+background-size:cover;
+}
+
+.footer {
+	height:5%;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footerrow {
+	margin-top:12.5px;
+}
+
+#footeremail {
+text-decoration:none;
+color:white;
+}
+
+#copyright {
+	padding-left:15px;
+}
+/* About */
+
+.mainabout {
+	margin:15px;
+	height:80vh;
+}
+
+.abouttext {
+	font-size:1.5em;
+	margin-left:15px;
+}
+
+.abouttext a {
+	color:red;
+}
+
+.showresume {
+	margin-bottom:40px;
+}
+
+.showresume h3 {
+	margin-top:50px;
+}
+
+.showresume h3 a{
+	border:2px solid white;
+	color:white;
+	padding:5px;
+	margin-left:15px;
+}
+
+.showresume h3 a:hover {
+	cursor: pointer;
+}
+
+.resume {
+	display:none;
+	background-color:white;
+	color:black;
+}
+
+.resumeDisplay {
+	display:block;
+}
+
+.resume ul {
+	padding-left: 0px;
+}
+
+.resume li {
+	list-style-type:square;
+	font-size:1.25em;
+}
+
+.resume h3 {
+	margin-bottom:20px;
+	font-size:2em;
+	border-bottom:2px solid white;
+}
+
+.resume h4 {
+	vertical-align:text-top;
+	margin-top:0px;
+	font-size:1.5em;
+}
+
+.jobdesc h4 {
+	margin-bottom:0px;
+}
+
+.contentrow {
+	margin-bottom:20px;
+}
+
+/* Projects Photo Main */
+
+.mainpage {
+	height:80vh;
+	margin:15px;
+}
+
+/*Photogrid*/
+
+#photoGridBody {
+	border: 0.5vh solid white;
+	color:white;
+	margin:1vh;
+	height:98vh;
+	width: 98.5vw;
+}
+
+.photogridContainer {
+	width:100%;
+	height:85%;
+}
+
+.photoGridFluidDuplicate {
+	display:none;
+	height:inherit;
+	width:inherit;
+}
+
+.photoGridFluid {
+	padding:0px;
+	visibility:visible;
+	height:inherit;
+	width:inherit;
+}
+
+#photoGridHeader.header {
+	height:10%;
+}
+
+#photoGridFooter.footer {
+	height:5%;
+}
+
+.photoGridImg {
+	display:inline-block;
+}
+
+.photoGridImg img {
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+
+.button {
+	border:5px solid red;
+}
+
+.copyrow {
+	background-color: red;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.header {
+		height:auto;
+	} 
+
+	.homelink {
+		font-size:1.5em;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.header h1 {
+		font-size:1.8em;
+	}
+
+	.header a {
+		font-size:1.2em;
+		float:left;
+	}
+
+	.navlink {
+		margin-top:40px;
+		margin-bottom:-10px;
+	}
+
+	.main {
+		background:url(../img/6.jpg);
+		background-size:cover;
+	}
+
+	.mainabout {
+		height:auto;
+	}
+
+	.footer{
+		height:80px;
+	}
+
+	.footer a, .footer p {
+		margin-top:10px;
+	}
+
+	address {
+		margin-bottom:5px;
+	}
+
+	.abouttext {
+		font-size:1em;
+	}
+
+	.jobdesc h4 {
+		margin-bottom:10px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+	.header {
+		height:auto;
+		margin-bottom:10px;
+	}
+
+	.navlink {
+		margin-top:5px;
+	}
+}
