@@ -1,6 +1,5 @@
 body {
 	background-color:black;
-	border: 4px solid white;
 	color:white;
 	margin:8px;
 }
@@ -11,20 +10,16 @@ h1, h3, h4, h5, p, a, li{
 
 #indexcopy {
 	display:none;
-	height:97.5vh;
-	margin:1vh;
-	height:98vh;
-	width: 98.5vw;
 }
 
 .homelink {
 	font-family:'Quicksand', sans-serif;
 	font-size:1.3em;
-	margin-top:20px;
+	margin-top:10px;
 }
 
 .header {
-	height:10%;
+	height:75px;
 }
 
 .header a {
@@ -38,7 +33,7 @@ h1, h3, h4, h5, p, a, li{
 }
 
 .navbar {
-	margin-top:20px;
+	margin-top:10px;
 	display:inline;
 	list-style-type:none;
 }
@@ -49,7 +44,7 @@ h1, h3, h4, h5, p, a, li{
 }
 
 .navlink {
-	margin-top:30px;
+	margin-top:20px;
 	text-align:left;
 }
 
@@ -60,6 +55,7 @@ h1, h3, h4, h5, p, a, li{
 .navbarDropdown {
 	list-style-type:none;
 	padding-left:10px;
+	margin-top:10px;
 }
 
 .navbarDropdown .navbarDropdownLink {
@@ -73,13 +69,13 @@ h1, h3, h4, h5, p, a, li{
 }
 
 .main {
-height:85%;
+height:900px;
 background:url(../img/1-copy.jpg);
 background-size:cover;
 }
 
 .footer {
-	height:5%;
+	height:40px;
 }
 
 .footer ul {
@@ -182,16 +178,22 @@ color:white;
 /*Photogrid*/
 
 #photoGridBody {
-	border: 0.5vh solid white;
 	color:white;
-	margin:1vh;
-	height:98vh;
-	width: 98.5vw;
+}
+
+.pgparagraph {
+	margin-left:20px;
+	text-align:center;
+	margin-bottom:20px;
 }
 
 .photogridContainer {
 	width:100%;
-	height:85%;
+	height:800px;
+}
+
+.photoGridImg:hover, .photoGridFluidDuplicate:hover {
+	cursor:pointer;
 }
 
 .photoGridFluidDuplicate {
@@ -207,12 +209,8 @@ color:white;
 	width:inherit;
 }
 
-#photoGridHeader.header {
-	height:10%;
-}
-
-#photoGridFooter.footer {
-	height:5%;
+.header {
+	height:75px;
 }
 
 .photoGridImg {
@@ -222,7 +220,7 @@ color:white;
 .photoGridImg img {
 	max-width:100%;
 	height:auto;
-	display:block;
+	display:none;
 }
 
 .button {
@@ -298,4 +296,31 @@ color:white;
 	.navlink {
 		margin-top:5px;
 	}
+
+	.navbarDropdown .navbarDropdownLink {
+	margin-top:-10px;
+	margin-left:-10px;
+	text-align:left;
+	display:none;
+}
+}
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+  /*.ie9up{:value;}*/
+  .header{
+  	background-color:black;
+  	height:auto;
+  	display:inline;
+  }
+
+  .navbarDropdown .navbarDropdownLink {
+	margin-top:-10px;
+	margin-left:-10px;
+	text-align:left;
+	display:none;
+}
+
+.photogridContainer {
+	height:600px;
+}
 }

@@ -1,4 +1,5 @@
 var main = function() {
+     $('.photoGridImg img').fadeIn(1000);
      //PHOTOGRID SCRIPT
      var pgcontainer = $('.photogridContainer');
      var pgwidth = $('.photogridContainer').width();
